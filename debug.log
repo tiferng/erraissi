@@ -1,0 +1,2 @@
+[0210/102237.746:ERROR:settings.cc(425)] Settings magic is not 1129342067
+[0210/103237.778:ERROR:directory_reader_win.cc(43)] FindFirstFile: Le chemin d’accès spécifié est introuvable. (0x3)
