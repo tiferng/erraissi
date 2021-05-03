@@ -1,0 +1,214 @@
+:root {
+  --dtheme-color: #e7e7e7;
+  --dtheme-bg-color: rgb(20, 20, 20);
+}
+
+/* Start Setting Box */
+
+.setting-box.open {
+  box-shadow: 0px 0px 10px 0px rgb(255, 255, 255);
+}
+.setting-box {
+  background-color: var(--dtheme-bg-color);
+}
+
+.setting-box .toggle-setting {
+  background-color: #fff;
+  box-shadow: 2px 0px 2px 0px #000;
+}
+
+.setting-content .box-option {
+  background-color: #d8eafb;
+}
+.setting-content .box-option h4 {
+  color: #666;
+}
+
+.setting-content .box-option .color-list li {
+  background-color: #333;
+}
+
+.setting-content .random-bg .yes,
+.setting-content .random-bg .no {
+  background-color: #464f58;
+  color: #fff;
+}
+
+/* End Setting Box */
+
+.pullets-side .pullet {
+  background-color: #fff;
+  border: 3px solid var(--main-color);
+}
+.pullets-side .pullet .pullet-title {
+  background-color: var(--main-color);
+  color: #fff;
+}
+
+.pullets-side .pullet .pullet-title:before {
+  border-color: transparent transparent transparent var(--main-color);
+}
+/* Strat Landing Page */
+
+.landing-page .overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.landing-page .header-area {
+  color: #fff;
+}
+
+.header-area .links li a {
+  color: #fff;
+}
+.header-area .links li a:hover,
+.header-area .links li.active {
+  color: var(--main-color);
+}
+
+.introduction {
+  z-index: 2;
+  color: #fff;
+}
+
+.introduction h1 span {
+  color: var(--main-color);
+}
+
+/* Strat Landing Page */
+/* Start About Us */
+.container.dark {
+  background-color: var(--dtheme-bg-color);
+}
+.about-us {
+  background-color: var(--dtheme-bg-color);
+}
+
+.about-us .info-box p {
+  color: var(--dtheme-color);
+}
+
+/* End About Us */
+
+/* Start Skills */
+.skills {
+  background-color: var(--dtheme-bg-color);
+}
+.skills h1 {
+  color: var(--main-color);
+}
+.skills .skill-box {
+  background-color: rgb(153, 108, 139);
+}
+
+.skills .skill-box .skill-progress {
+  background-color: rgb(75, 73, 73);
+}
+.skills .skill-box .skill-progress span {
+  background-color: var(--main-color);
+}
+/* End Skills */
+/* Start Gallery */
+.gallery {
+  background-color: var(--dtheme-bg-color);
+}
+.gallery h1 {
+  color: var(--main-color);
+}
+
+.gallery .imgs-box img {
+  background-color: #eee;
+  border: 1px solid #ccc;
+}
+
+.overlay-popup {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.popup-box {
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.popup-box span.fa-plus {
+  background-color: darkgrey;
+}
+/* Start Gallery */
+/* Start Timeline area */
+.timeline {
+  background-color: var(--dtheme-bg-color);
+}
+
+.timeline .timeline-content:before {
+  background-color: var(--main-color);
+}
+.timeline .timeline-content .year {
+  background-color: var(--main-color);
+  color: #fff;
+}
+
+.timeline .timeline-content .left:before,
+.timeline .timeline-content .right:before {
+  background-color: #fff;
+  border: 3px solid var(--main-color);
+}
+.timeline .timeline-content .content {
+  background-color: rgb(218, 218, 221);
+}
+.timeline .timeline-content .left .content:before {
+  border-color: transparent transparent transparent rgb(218, 218, 221);
+}
+.timeline .timeline-content .right .content:before {
+  border-color: transparent rgb(218, 218, 221) transparent transparent;
+}
+.timeline .timeline-content .content h3 {
+  color: var(--main-color);
+}
+.timeline .timeline-content .content p {
+  color: #000;
+}
+
+/* Start Features */
+.features {
+  background-color: var(--dtheme-bg-color);
+}
+.features h1 {
+  color: var(--main-color);
+}
+
+.features .feat-box h4:before {
+  background-color: var(--main-color);
+}
+.features .feat-box h4 {
+  color: var(--dtheme-color);
+}
+.features .feat-box p {
+  color: rgb(197, 194, 194);
+}
+
+/* End Features */
+
+/* Start Contact */
+.contact {
+  background-color: var(--dtheme-bg-color);
+}
+
+.contact h1 {
+  color: var(--main-color);
+}
+
+.contact form input:not([type="submit"]),
+.contact form textarea {
+  border: 2px solid rgb(43, 43, 43);
+}
+
+.contact form input[type="submit"] {
+  background-color: var(--main-color);
+  color: #fff;
+}
+/* End Contact */
+
+/* START FOOTER */
+footer {
+  background-color: rgb(10, 0, 10);
+  color: #eee;
+}
+/* END FOOTER */
